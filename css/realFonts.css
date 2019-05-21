@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Brandon Text Regular';
+    src: url('FontsAndColors/MyFonts/');
+    src: url('FontsAndColors/MyFonts/?#iefix') format('embedded-opentype'),
+    url('FontsAndColors/MyFonts/BrandonText-Regular.woff') format('woff'),
+    url('FontsAndColors/MyFonts/BrandonText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
