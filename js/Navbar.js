@@ -8,6 +8,5 @@ var currentScrollPos = window.pageYOffset;
    nav.classList.remove('fixed_navbar');
   }
   prevScrollpos = currentScrollPos;
-  console.log(prevScrollpos, currentScrollPos);
-  
+  // console.log(prevScrollpos, currentScrollPos);
 }
