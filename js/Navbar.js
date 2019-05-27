@@ -10,3 +10,9 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
   // console.log(prevScrollpos, currentScrollPos);
 }
+
+var slideitem_1 =document.getElementById('sl_2');
+slideitem_1.checked = () => {
+  console.log("checked");
+  
+}

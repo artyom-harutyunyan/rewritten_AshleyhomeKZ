@@ -94,6 +94,9 @@
         justify-content: center;
         align-items: center;
     }
+    .right {
+        height: 60vh;
+    }
 }
 @media only screen and (max-height: 800px) /* меньше */ {
     .left {
