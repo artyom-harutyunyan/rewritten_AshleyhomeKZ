@@ -2,14 +2,20 @@
 // var AboutCompany = document.getElementsByClassName('about')[0].getBoundingClientRect();
 // var catalog = document.getElementsByClassName('catalog')[0].getBoundingClientRect();
 // var contact = document.getElementsByClassName('contacts')[0].getBoundingClientRect();
+// var mLoc = window.pageYOffset;
 
-// () => {
-//     homePosition.onclick = () => {
-
-//     }
-
+// function ScrollHome() {
+//     window.scroll(mLoc,0);
+// }
+// function ScrollAbout() {
+//     var mLoc = window.pageYOffset;
+//     window.scroll(mLoc, mLoc - 1900);
+// }
+// function ScrollCatalog() {
+//     window.scroll(mLoc, 0);
+// }
+// function ScrollContact() {
+//     window.scroll(mLoc, 0);
 // }
 
-// var aboutConpany = document.getElementsByClassName('OwerviewElement')[0].getBoundingClientRect();
-// var Catalog = document.getElementsByClassName('catalogTitle')[0].getBoundingClientRect();
-// var Contact = document.getElementsByClassName('Contact_wrap')[0].getBoundingClientRect();
+// console.log(AboutCompany,catalog,contact);
