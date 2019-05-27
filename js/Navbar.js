@@ -11,8 +11,8 @@ var currentScrollPos = window.pageYOffset;
   // console.log(prevScrollpos, currentScrollPos);
 }
 
-var slideitem_1 =document.getElementById('sl_2');
-slideitem_1.checked = () => {
-  console.log("checked");
+// var slideitem_1 =document.getElementById('sl_2');
+// slideitem_1.checked = () => {
+//   console.log("checked");
   
-}
+// }
