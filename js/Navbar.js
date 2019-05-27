@@ -4,7 +4,7 @@ window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     nav.classList.add('fixed_navbar');
-  }else if(prevScrollpos < currentScrollPos || prevScrollpos < 200) {
+  }if(prevScrollpos <= currentScrollPos || currentScrollPos <= 200) {
    nav.classList.remove('fixed_navbar');
   }
   prevScrollpos = currentScrollPos;
