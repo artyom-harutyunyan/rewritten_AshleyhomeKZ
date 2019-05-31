@@ -7,6 +7,7 @@
     font-family: 'Brandon Text Regular', sans-serif;
     outline: none;
     transition: .3s ease;
+    scroll-behavior: smooth;
 }
 .container {
     width: 100%;
